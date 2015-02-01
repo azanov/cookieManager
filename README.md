@@ -27,8 +27,10 @@ cookie.remove(
 ); // Removes a cookie by its name
 
 cookie.getDomain(); // Returns the current domain name. Empty string if it's localhost
+```
 
 
+```javascript
 // Or with jQuery
 $.cookie.get(
 	'name'
